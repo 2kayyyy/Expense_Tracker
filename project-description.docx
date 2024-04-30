@@ -1,1 +1,36 @@
-hello, world!
+Project Title: Expense Tracker
+
+Author: Aryan Kafle
+
+Date: 04/24/2024
+
+Version: 1.0
+
+1. Project Overview
+The Expense Tracker is a Java application designed to help users manage and analyze their personal expenses. It features a user-friendly graphical interface for entering and reviewing expenses, alongside a command-line interface for more direct data manipulation and reporting.
+
+2. Application Functionality
+Record Expenses: Users can enter expenses, specifying the amount, category, and date.
+View and Analyze Expenses: Users can view their expenses in various formats, including lists and charts, filtered by date and category.
+Manage Categories: Users can add, delete, or modify expense categories.
+
+3. GUI Design
+Main Dashboard: Shows an overview of recent spending and quick links to add expenses or view detailed reports.
+Expense Log: Detailed list of past expenses sortable by various parameters.
+Charts and Analytics: Visual representations of spending patterns.
+Note: Detailed GUI sketches will be included as supplementary images.
+
+4. CLI Design
+The CLI will provide functionalities similar to the GUI but in a command-line environment, including:
+
+a. Adding expenses via commands.
+b. Generating reports with command options.
+c. Managing expense categories through command-line arguments.
+
+5. Data Management
+Expenses will be stored in a JSON file, facilitating easy reading and writing operations. This file will contain entries for each expense, including amount, category, date, and notes.
+
+6. Object-Oriented Design
+a. Class Expense: Represents individual expenses.
+b. Class ExpenseManager: Manages all expenses.
+c. Class CategoryManager: Handles categories.
